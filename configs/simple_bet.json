@@ -1,0 +1,14 @@
+{
+  "auth": {
+    "username": "testuser",
+    "password": "testpass"
+  },
+  "base_url": "https://v46fnhvrjvtlrsmnismnwhdh5y0lckdl.lambda-url.us-east-1.on.aws",
+  "fixture_id": 101,
+  "market_type": "1X2",
+  "stake": 50,
+  "selections": [
+    {"fixture_id": 101, "market": "1X2"},
+    {"fixture_id": 102, "market": "1X2"}
+  ]
+}

@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Reports
+reports/
+
+# IDE/editor files
+.vscode/
+*.log
