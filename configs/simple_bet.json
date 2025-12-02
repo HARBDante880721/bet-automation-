@@ -1,14 +1,30 @@
 {
+  "base_url": "https://v46fnhvrjvtlrsmnismnwhdh5y0lckdl.lambda-url.us-east-1.on.aws",
   "auth": {
     "username": "testuser",
     "password": "testpass"
   },
-  "base_url": "https://v46fnhvrjvtlrsmnismnwhdh5y0lckdl.lambda-url.us-east-1.on.aws",
-  "fixture_id": 101,
-  "market_type": "1X2",
+  "fixture_id": 12345,
   "stake": 50,
+  "market_type": "1X2",
+  "sport_id": 1,
+  "tournament_id": 1,
   "selections": [
-    {"fixture_id": 101, "market": "1X2"},
-    {"fixture_id": 102, "market": "1X2"}
+    {
+      "fixture_id": 111,
+      "market": "1X2",
+      "sport_id": 1
+    },
+    {
+      "fixture_id": 222,
+      "market": "Over/Under",
+      "sport_id": 1
+    },
+    {
+      "fixture_id": 333,
+      "market": "Spread",
+      "sport_id": 2
+    }
   ]
 }
+

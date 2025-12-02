@@ -6,17 +6,18 @@ def test_combo_bet_flow(api_client, load_config):
     selections = load_config["selections"]
 
     for sel in selections:
+
         payload = {
             "betInfo": {
                 "fixtureId": str(sel["fixture_id"]),
                 "market": sel["market"],
                 "stake": str(stake),
                 "amount": str(stake),
-                "betId": str(sel.get("betId", "123")),  # string obligatorio
-                "source": "web",
-                "sportId": str(sel.get("sport_id", 1)),
-                "tournamentId": str(sel.get("tournament_id", 1)),
-                "odd": str(sel.get("odd", 2.0))
+                "betId": "123",
+                "sportId": str(sel["sport_id"]),
+                "tournamentId": str(sel["tournament_id"]),
+                "odd": str(sel["odd"]),
+                "source": "web"
             },
             "betsAdded": []
         }

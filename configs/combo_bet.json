@@ -1,10 +1,32 @@
 {
-  "auth": { "username": "testuser", "password": "testpass" },
   "base_url": "https://v46fnhvrjvtlrsmnismnwhdh5y0lckdl.lambda-url.us-east-1.on.aws",
+  "auth": {
+    "username": "testuser",
+    "password": "testpass"
+  },
+  "fixture_id": 12345,
   "stake": 50,
   "selections": [
-    { "sport_id": 1, "market": "1X2" },
-    { "sport_id": 1, "market": "Over/Under" },
-    { "sport_id": 2, "market": "Spread" }
+    {
+      "fixture_id": 111,
+      "market": "1X2",
+      "sport_id": 1,
+      "tournament_id": 1,
+      "odd": 2.0
+    },
+    {
+      "fixture_id": 222,
+      "market": "Over/Under",
+      "sport_id": 1,
+      "tournament_id": 1,
+      "odd": 1.8
+    },
+    {
+      "fixture_id": 333,
+      "market": "Spread",
+      "sport_id": 2,
+      "tournament_id": 2,
+      "odd": 2.5
+    }
   ]
 }

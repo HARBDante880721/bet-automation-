@@ -51,7 +51,7 @@ All configurable parameters are stored in JSON/YAML files inside configs/.
 Example: configs/simple_bet.json:
 
 {
-  "base_url": "https://api.example.com",
+  "base_url": "https://v46fnhvrjvtlrsmnismnwhdh5y0lckdl.lambda-url.us-east-1.on.aws",
   "credentials": {
     "username": "user",
     "password": "pass"
